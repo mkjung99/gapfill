@@ -54,12 +54,12 @@ ret2, updated_frs_mask2 = gf.fill_marker_gap_rbt(tgt_mkr_pos2, cl_mkr_pos)
 - [SciPy](https://www.scipy.org/)
 
 ## References
-- [Smolka, J. and Lukasik, E., 2016, July. "The rigid body gap filling algorithm". In 2016 9th International Conference on Human System Interactions (HSI) (pp. 337-343). IEEE.](https://doi.org/10.1109/HSI.2016.7529654)
+- [Smolka, J. and Lukasik, E., 2016, July. The rigid body gap filling algorithm. In 2016 9th International Conference on Human System Interactions (HSI) (pp. 337-343). IEEE.](https://doi.org/10.1109/HSI.2016.7529654)
 - [Arun, K.S., Huang, T.S. and Blostein, S.D., 1987. Least-squares fitting of two 3-D point sets. IEEE Transactions on pattern analysis and machine intelligence, (5), pp.698-700.](https://doi.org/10.1109/TPAMI.1987.4767965)
-- [Wikipedia: "Kabsch algorithm"](https://en.wikipedia.org/wiki/Kabsch_algorithm)
-- [Kwon3D: "Computation of the Rotation Matrix"](http://www.kwon3d.com/theory/jkinem/rotmat.html)
-- [Vicon: "What Gap Filling Algorithms are used Nexus 2?"](http://www.vicon.com/support/faqs/?q=what-gap-filling-algorithms-are-used-nexus-2)
-- [Qualisys: "Featuring the Trajectory Editor in QTM"](https://www.qualisys.com/webinars/viewing-gap-filling-and-smoothing-data-with-the-trajectory-editor/)
+- [Wikipedia: Kabsch algorithm](https://en.wikipedia.org/wiki/Kabsch_algorithm)
+- [Kwon3D: Computation of the Rotation Matrix](http://www.kwon3d.com/theory/jkinem/rotmat.html)
+- [Vicon: What Gap Filling Algorithms are used Nexus 2?](http://www.vicon.com/support/faqs/?q=what-gap-filling-algorithms-are-used-nexus-2)
+- [Qualisys: Featuring the Trajectory Editor in QTM](https://www.qualisys.com/webinars/viewing-gap-filling-and-smoothing-data-with-the-trajectory-editor/)
 
 ## How to cite this work
 
