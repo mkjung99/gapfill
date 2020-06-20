@@ -60,5 +60,11 @@ ret2, updated_frs_mask2 = gf.fill_marker_gap_rbt(tgt_mkr_pos2, cl_mkr_pos)
 - [Vicon: "What Gap Filling Algorithms are used Nexus 2?"](http://www.vicon.com/support/faqs/?q=what-gap-filling-algorithms-are-used-nexus-2)
 - [Qualisys: "Featuring the Trajectory Editor in QTM"](https://www.qualisys.com/webinars/viewing-gap-filling-and-smoothing-data-with-the-trajectory-editor/)
 
+## How to cite this work
+
+Here is a suggestion to cite this GitHub repository:
+
+> Jung, M. K. (2020) GapFill: A Python module of gap filling functions for motion capture marker data. GitHub repository, <https://github.com/mkjung99/gapfill>.
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
