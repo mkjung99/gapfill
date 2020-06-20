@@ -1,5 +1,5 @@
 # GapFill
-GapFill: gap filling functions for motion capture marker data
+GapFill: A Python module of gap filling functions for motion capture marker data
 
 ## Description
 Collection of several functions for gap filling and recovering of motion capture marker data
