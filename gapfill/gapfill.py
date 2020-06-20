@@ -23,7 +23,7 @@ SOFTWARE.
 """
 
 __author__ = "Moon Ki Jung, https://github.com/mkjung99/gapfill"
-__version__ = "0.0.5"
+__version__ = "0.0.6"
 
 import numpy as np
 from scipy.interpolate import InterpolatedUnivariateSpline
