@@ -23,7 +23,7 @@ SOFTWARE.
 """
 
 __author__ = "Moon Ki Jung, https://github.com/mkjung99/gapfill"
-__version__ = "0.0.4"
+__version__ = "0.0.5"
 
 import numpy as np
 from scipy.interpolate import InterpolatedUnivariateSpline
@@ -241,17 +241,20 @@ def fill_marker_gap_rbt(tgt_mkr_pos, cl_mkr_pos, msg=False):
     .. [1] http://www.vicon.com/support/faqs/?q=what-gap-filling-algorithms-are-used-nexus-2
     .. [2] http://www.kwon3d.com/theory/jkinem/rotmat.html
     .. [3] https://en.wikipedia.org/wiki/Kabsch_algorithm
+    .. [4] https://doi.org/10.1109/TPAMI.1987.4767965
     
     """
     def RBT(A, B):
-        C = np.dot((B-np.mean(B, axis=0)).T, (A-np.mean(A, axis=0)))
+        Ac = A.mean(axis=0)
+        Bc = B.mean(axis=0)
+        C = np.dot((B-Bc).T, (A-Ac))
         U, S, Vt = np.linalg.svd(C)
         R = np.dot(U, np.dot(np.diag([1, 1, np.linalg.det(np.dot(U, Vt))]), Vt))
-        L = B.mean(0)-np.dot(R, A.mean(0))
-        err_vec = np.dot(R, A.T).T+L-B
+        t = Bc-np.dot(R, Ac)
+        err_vec = np.dot(R, A.T).T+t-B
         err_norm = np.linalg.norm(err_vec, axis=1)
         mean_err_norm = np.mean(err_norm)
-        return R, L, err_vec, err_norm, mean_err_norm
+        return R, t, err_vec, err_norm, mean_err_norm
     input_dtype = type(tgt_mkr_pos[0,0])
     n_total_frs = tgt_mkr_pos.shape[0]
     tgt_mkr_valid_mask = ~np.any(np.isnan(tgt_mkr_pos), axis=1)
