@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="gapfill",
-    version="0.0.3",
+    version="0.0.4",
     author="Moon Ki Jung",
     author_email="m.k.jung@outlook.com",
-    description="gap filling functions for motion capture marker data",
+    description="GapFill: A Python module of gap filling functions for motion capture marker data",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/mkjung99/gapfill",

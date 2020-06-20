@@ -23,7 +23,7 @@ SOFTWARE.
 """
 
 __author__ = "Moon Ki Jung, https://github.com/mkjung99/gapfill"
-__version__ = "0.0.3"
+__version__ = "0.0.4"
 
 import numpy as np
 from scipy.interpolate import InterpolatedUnivariateSpline
@@ -55,9 +55,9 @@ def recover_marker_rel(tgt_mkr_pos, cl_mkr_pos, msg=False):
     ndarray or None
         Boolean ndarray (n, 3) for updated frames, where n is the total number of frames.
     
-    Notes
-    -----
-    This function does very similar to what 'relational gap filling' in the QUALYSIS software does.
+    References
+    ----------
+    .. [1] https://www.qualisys.com/webinars/viewing-gap-filling-and-smoothing-data-with-the-trajectory-editor/
     
     """
     input_dtype = type(tgt_mkr_pos[0,0])
