@@ -66,5 +66,17 @@ Here is a suggestion to cite this GitHub repository:
 
 > Jung, M. K. (2020) GapFill: A Python module of gap filling functions for motion capture marker data. GitHub repository, <https://github.com/mkjung99/gapfill>.
 
+And a possible BibTeX entry:
+
+```tex
+@misc{Jung2020,  
+    author = {Jung, M. K.},
+    title = {GapFill: A Python module of gap filling functions for motion capture marker data},  
+    year = {2020},  
+    publisher = {GitHub},  
+    journal = {GitHub repository},  
+    howpublished = {\url{https://github.com/mkjung99/gapfill}}  
+}
+```
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
