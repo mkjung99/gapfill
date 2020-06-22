@@ -79,5 +79,7 @@ And a possible BibTeX entry:
     howpublished = {\url{https://github.com/mkjung99/gapfill}}  
 }
 ```
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3903481.svg)](https://doi.org/10.5281/zenodo.3903481)
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
