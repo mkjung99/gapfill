@@ -63,22 +63,6 @@ ret2, updated_frs_mask2 = gf.fill_marker_gap_rbt(tgt_mkr_pos2, cl_mkr_pos)
 
 ## How to cite this work
 
-Here is a suggestion to cite this GitHub repository:
-
-> Jung, M. K. (2020) GapFill: A Python module of gap filling functions for motion capture marker data. GitHub repository, <https://github.com/mkjung99/gapfill>.
-
-And a possible BibTeX entry:
-
-```tex
-@misc{Jung2020,  
-    author = {Jung, M. K.},
-    title = {GapFill: A Python module of gap filling functions for motion capture marker data},  
-    year = {2020},  
-    publisher = {GitHub},  
-    journal = {GitHub repository},  
-    howpublished = {\url{https://github.com/mkjung99/gapfill}}  
-}
-```
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3903481.svg)](https://doi.org/10.5281/zenodo.3903481)
 
 ## License
